@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+#profile_photo {
+  border-radius: 50%;
+  box-shadow: lightgray 10px 10px 10px;
+}
+
+div {
+  border: black 1px solid;
+}
+
+a, li {
+  text-decoration: none;
+  display: inline;
+}
