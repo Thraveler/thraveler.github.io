@@ -7,6 +7,7 @@ body {
 #header {
   color: white;
   widows: 100%;
+  padding-top: 10px;
   background-image: url("../images/header_background.jpeg");
   background-repeat:no-repeat;
   background-size: 100%; 
@@ -19,12 +20,16 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin-bottom: 15px;
 }
 
 /* div {
   border: black 1px solid;
 } */
+
+#navbar {
+  padding-top: 20px;
+}
 
 ul {
   list-style-type: none;
@@ -43,6 +48,10 @@ li a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(128, 128, 128, .5);
 }
 
 #footer {
