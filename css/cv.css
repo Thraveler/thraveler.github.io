@@ -1,0 +1,54 @@
+* { box-sizing: border-box }
+
+#main_container {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 20px;
+}
+
+.section_cv {
+  float: left;
+  margin-bottom: 20px;
+  /* margin: 20px auto;                                        */
+  border: 1px solid black;
+}
+
+.right {
+  width: 59%;
+}
+
+.left {
+  width: 39%;
+}
+
+#photo {
+  width: 200px;
+  box-shadow: gray 1px 1px 10px;
+}
+
+/* Barras de progreso */
+.progress_container {
+  background-color: #ddd;
+  padding: 1px;
+}
+
+#html {
+  width: 100%;
+  background-color: steelblue;
+  text-align: right;
+  padding: 5px;
+}
+
+#css {
+  width: 80%;
+  background-color: steelblue;
+  text-align: right;
+  padding: 5px;
+}
+
+#javascript {
+  width: 80%;
+  background-color: steelblue;
+  text-align: right;
+  padding: 5px;
+}
