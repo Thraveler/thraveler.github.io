@@ -1,5 +1,14 @@
 * { box-sizing: border-box }
 
+h2 {
+  padding-left: 2px;
+  margin: 0;
+}
+h3 {
+  padding-left: 2px;
+  margin: 5px 0;
+}
+
 #main_container {
   padding-right: 5%;
   padding-left: 5%;
@@ -10,7 +19,7 @@
   float: left;
   margin-bottom: 20px;
   /* margin: 20px auto;                                        */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .right {
@@ -22,14 +31,27 @@
 }
 
 #photo {
-  width: 200px;
+  width: 100%;
   box-shadow: gray 1px 1px 10px;
+}
+
+/* Seccion de habilidades */
+.ability_section {
+  margin: 5px;
+  /* border: black 1px solid; */
+  padding: 2px;
 }
 
 /* Barras de progreso */
 .progress_container {
-  background-color: #ddd;
-  padding: 1px;
+  /* background-color: #ddd; */
+  padding: 1px; 
+  margin: 2px 0px;
+  margin-left: 10px;
+}
+
+.skills {
+  border-radius: 10px;
 }
 
 #html {
